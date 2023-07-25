@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Listen to your favorite scores anytime, anywhere</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <ul>
+        <li><div class="songlist">
+            <h1>Chaffs and Dust</h1>
+        </div></li>
+        <div class="songitemContainer">
+        <li><div class="songItem">
+            <img src="Cover-1.jpg" alt="1">
+            <span class="Songname">Bohemian Rhapsody   </span>
+            <span class="songlistPlay"><span class="timestamp">5:54<i id="1" class="far songItemPlay fa-circle-play"></i></span></span>
+        </div></li>
+        <li><div class="songItem">
+            <img src="Cover-2.jpeg" alt="1">
+            <span class="Songname">Glimpse Of Us   </span>
+            <span class="songlistPlay"><span class="timestamp">5:54<i id="2" class="far songItemPlay fa-circle-play"></i></span></span>
+        </div></li>
+        <li><div class="songItem">
+            <img src="Cover-3.jpeg" alt="1">
+            <span class="Songname">Rolling In The Deep   </span>
+            <span class="songlistPlay"><span class="timestamp">5:54<i id="3" class="far songItemPlay fa-circle-play"></i></span></span>
+        </div></li>
+        <li><div class="songItem">
+            <img src="Cover 4.jpeg" alt="1">
+            <span class="Songname">Say Yes to Heaven  </span>
+            <span class="songlistPlay"><span class="timestamp">5:54<i id="4" class="far songItemPlay fa-circle-play"></i></span></span>
+        </div></li>
+        <li><div class="songItem">
+            <img src="Cover-5.jpeg" alt="1">
+            <span class="Songname">Champagne Problems   </span>
+            <span class="songlistPlay"><span class="timestamp">5:54<i id="5" class="far songItemPlay fa-circle-play"></i></span></span>
+        </div></li>
+        <li><div class="songItem">
+            <img src="Cover-6.jpeg" alt="1">
+            <span class="Songname">Driver's License   </span>
+            <span class="songlistPlay"><span class="timestamp">5:54<i id="6" class="far songItemPlay fa-circle-play"></i></span></span>
+        </div></li>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-2x" id="previous"></i>
+            <i class="fa-regular fa-circle-play fa-2x " id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-2x" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <span id="masterSongName">Bohemian Rhapsody</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c6c1d32b60.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
