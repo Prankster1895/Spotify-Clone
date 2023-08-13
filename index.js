@@ -37,8 +37,8 @@ myProgressBar.addEventListener('change',function(){
 const makeAllPlay = ()=>{
     Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         element.addEventListener('click',function(e){
-           e.target.classList.remove('fa-play-circle');
-           e.target.classList.add('fa-pause-circle');
+           e.target.classList.remove('fa-pause-circle');
+           e.target.classList.add('fa-play-circle');
 
 })
 })
